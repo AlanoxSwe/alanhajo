@@ -1,0 +1,35 @@
+.intro {
+	min-height: 100vh;
+	width: 100vw;
+	background-color: #ff6769;
+	padding: 4rem 0rem;
+	
+	.heading {
+		width: 100vw;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		
+		.introText {
+			color: #fff;
+			h1 {
+				font-size: 4rem;
+				margin: 0 auto;
+			}
+			h2 {
+				font-weight: 400;
+				margin: 1rem auto;
+				font-size: 1rem;
+			}
+		}
+	
+	}
+	
+	.navigation {
+		width: 100vw;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
