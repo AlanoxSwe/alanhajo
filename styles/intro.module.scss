@@ -10,6 +10,9 @@
 		justify-content: space-around;
 		align-items: center;
 		flex-wrap: wrap;
+		@media (max-width: 768px) {
+			text-align: center;
+		}
 		
 		.introText {
 			color: #fff;

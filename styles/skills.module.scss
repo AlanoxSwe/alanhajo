@@ -1,0 +1,24 @@
+.skills {
+  width: 100vw;
+  background-color: #cc5859;
+  padding: 2rem 0rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  
+  .iconContainer {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    
+    .icon {
+      font-size: 3rem;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}

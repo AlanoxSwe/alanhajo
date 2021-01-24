@@ -31,6 +31,10 @@
     background-color: #09f;
     color: #fff;
   }
+  &.dark {
+    background-color: #222;
+    color: #fff;
+  }
   &.link {
     background-color: transparent;
     color: #fff;
@@ -83,6 +87,26 @@
         font-size: 1.1rem;
         font-weight: 500;
       }
+    }
+  }
+}
+
+.header {
+  list-style: none;
+  background-color: #ff6769;
+  padding: 1rem 0.5rem;
+  color: #fff;
+  display: flex;
+  
+  .item {
+    font-weight: 500;
+    justify-self: flex-start;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+    .arrow {
+      padding-bottom: 2px;
     }
   }
 }

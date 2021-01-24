@@ -4,7 +4,7 @@ import style from '../styles/intro.module.scss';
 import { IoIosArrowDown } from 'react-icons/io';
 import Fade from 'react-reveal/Fade';
 
-const Intro = ({ scroll }) => {
+const Intro = () => {
 	return (
 		<section className={style.intro}>
 			<div className={style.heading}>

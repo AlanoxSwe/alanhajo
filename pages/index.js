@@ -2,11 +2,10 @@ import Head from 'next/head';
 import React, { useRef } from 'react';
 import Intro from '../components/Intro';
 import Projects from '../components/Projects';
+import Skills from '../components/Skills';
 
 export default function Home() {
-  const projects = React.createRef();
 
-  const scroll = () => projects.current.scrollIntoView();
   
   return (
     <div className="container">
@@ -15,8 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Intro scroll={scroll} />
-      <Projects ref={projects} />
+      <Intro />
+      <Skills />
+      <Projects />
     </div>
   )
 }
